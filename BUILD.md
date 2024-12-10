@@ -31,7 +31,7 @@ mv ApiConsumerFunction.zip function.zip
 terraform init
 terraform plan
 terraform apply
-
+```
 ### test
 - aws lambda invoke --function-name ApiConsumerFunction --payload '{"body": "{\"name\": \"Cambridge\"}"}' --cli-binary-format raw-in-base64-out response.json
   - verify result -> cat response.json 
