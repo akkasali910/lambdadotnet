@@ -13,7 +13,7 @@ public class Function
 {
     private static readonly HttpClient httpClient = new();
     private static readonly IAmazonDynamoDB dynamoDbClient = new AmazonDynamoDBClient();
-    private const string API_URL = "https://02zb4rk74h.execute-api.eu-west-2.amazonaws.com/fixtures-and-results/search";
+    private const string API_URL = "https://api.england-rfu.com/fixtures-and-results/search";
     private const string TABLE_NAME = "api_responses";
 
     public class ApiResponse
