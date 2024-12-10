@@ -1,5 +1,5 @@
 # lambdadotnet
-Example of lambda function using dotnet
+Example of lambda function using dotnet. It demonstrates an implementation of a simple AWS lambda function, which call a REST endpoint and save data in a DynamoDB table. 
 
 ## Project
 Let's create the complete project structure. Follow these steps:
